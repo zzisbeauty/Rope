@@ -145,7 +145,7 @@ def load_clip_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     clip_session = CLIPDensePredT(version='ViT-B/16', reduce_dim=64, complex_trans_conv=True)
     # clip_session = CLIPDensePredTMasked(version='ViT-B/16', reduce_dim=64)
-    clip_session.eval();
+    clip_session.eval()
     clip_session.load_state_dict(torch.load('./models/rd64-uni-refined.pth'), strict=False) 
     clip_session.to(device)    
     return clip_session 

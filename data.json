@@ -1,0 +1,11 @@
+{
+  "source videos": "G:/\u8fc5\u96f7\u4e0b\u8f7d/Rope/sourceVideo",
+  "source faces": "G:/task_picture_server/faces",
+  "saved videos": "G:/\u8fc5\u96f7\u4e0b\u8f7d/Rope/targetVideo",
+  "dock_win_geom": [
+    1920,
+    1027,
+    -8,
+    -8
+  ]
+}

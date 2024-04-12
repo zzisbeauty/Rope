@@ -1,0 +1,4 @@
+- data.json
+- saved_parameters.json
+
+`上述两个文件是运行程序时生成的，保存的是生成视频时的参数`
